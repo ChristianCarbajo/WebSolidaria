@@ -1,11 +1,18 @@
+* {
+   margin:0;
+   padding: 0;
+
+}
 body {
     max-width: 100%;
     position: absolute;
     top: -1vh;
-    right: -0.4vw;
-    left:-0.4vw;
+    right: 0vw;
+    left:0vw;
 }
-
+.pad {
+    padding: 1vh;
+}
 .font {font-family: "Montserrat";
 }
 .a {
@@ -53,6 +60,9 @@ body {
     width: 6vw;
     
 }
+.labordeta {
+    padding-top: 3vh;
+}
 .container {
     position: relative;
     z-index: 2;
@@ -85,15 +95,52 @@ video {
     mix-blend-mode: overlay;
 }
 .phrases{
-    width: 20vw;
+    width: 30vw;
     padding-left: 5.5vw;
     padding-top: 35vh;
+}
+main {
+    height: 98vh;
 }
 .backgroundBlack {
     background-color: rgb(0, 0, 2);
     height: 100vh;
-    width: 99vw;
+    padding-right: 0;
+    
+}
+.justifyPoligon {
+    display: flex;
+    justify-content: flex-end;
 }
 .poligon {
-     
+    width: 0vw;
+    height: 0vh;
+    border-style: solid;
+    border-width: 40.29842931937172vw 140vw 0 0;
+    border-color: transparent #ffffff transparent transparent; 
+}
+.helpText {
+    width: 50vw;
+    height: 10vh;
+    font-size: 5vh;
+    padding-left: 5vw;
+    padding-top: 0vh; 
+    position: relative;
+    left: 50vw;
+    bottom:20vh;
+}
+button {
+    height: 6vh;
+    width: 10vw;
+    background-color: red;
+    border-radius: 70px;
+    position: relative;
+    left:120vw;
+    bottom: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.contact{
+    font-size: 2vh;
 }
