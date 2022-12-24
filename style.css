@@ -41,15 +41,22 @@ body {
 }
 .FB {
     height: 3vh;
+    transition: all 0.5s;
+}
+.MediaSocial:hover {
+    height: 4vh;
 }
 .IT {
     height: 3vh;
+    transition: all 0.5s;
 }
 .YT {
     height: 3vh;
+    transition: all 0.5s;
 }
 .TW {
     height: 3vh;
+    transition: all 0.5s;
 }
 .logoSocial {
     display: flex;
@@ -61,6 +68,12 @@ body {
     padding-left: 5.5vw;
     width: 6vw;
     
+}
+.over_logo {
+    transition: all 0.5s;
+}
+.over_logo:hover {
+    font-size: 2.4vh;
 }
 .labordeta {
     padding-top: 3vh;
@@ -162,8 +175,14 @@ button {
 .image {
     height: 30vh;
     padding-bottom: 3vh;
-
+    transition: all 1s;
+    border-radius: 35%;
 }
+.image:hover {
+    height: 38vh;
+}
+
+    
  .text {
     width: 21vw;
     padding-top: 2vh;
