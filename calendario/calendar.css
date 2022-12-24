@@ -1,0 +1,109 @@
+
+/* Styling for the title (Month and Year) of the calendar */
+div.title {
+    font: x-large Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(250, 246, 246);
+    
+    }
+article {
+    padding-bottom: 10vh;
+}
+/* Styling for the footer */
+div.footer {
+    font: small Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+/* Styling for the overall table */
+table {
+    font: 100% Verdana, Arial, Helvetica, sans-serif;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+.enero {
+        background-image: url(/img_calendar/Enero.jpeg);
+       
+       }
+.febrero {
+    background-image: url(/img_calendar/febrero.jpeg);
+    background-repeat: no-repeat;
+    
+}
+.marzo {
+    background-image: url(/img_calendar/marzo.jpeg)
+}
+.abril {
+    background-image: url(/img_calendar/abril.jpg);
+    background-repeat: no-repeat;
+}
+.mayo {
+    background-image: url(/img_calendar/Mayo.jpg)
+}
+.junio {
+    background-image: url(/img_calendar/junio.jpeg);
+    background-repeat: no-repeat;
+}
+.julio {
+    background-image: url(/img_calendar/Julio.jpeg);
+    background-repeat: no-repeat;
+}
+.agosto {
+    background-image: url(/img_calendar/Agosto.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.septiembre {
+    background-image: url(/img_calendar/septiembre.jpeg);
+    background-position:bottom;
+}
+.octubre {
+    background-image: url(/img_calendar/Octubre.jpg);
+    background-repeat: no-repeat;
+}
+.noviembre {
+    background-image: url(/img_calendar/Noviembre.jpg)
+}
+.diciembre {
+    background-image: url(/img_calendar/diciembre.jpg);
+    background-position: center;
+}
+/* Styling for the column headers (days of the week) */
+th {
+    padding: 0 0.5em;
+    text-align: center;
+    background-color:gray;
+    color:rgb(250, 244, 244);
+    }
+/* Styling for the individual cells (days) */
+td  {     
+    font-size: medium;
+    padding: 0.25em 0.25em;   
+    width: 14%; 
+    height: 80px;
+    text-align: left;
+    vertical-align: top;
+    }
+/* Styling for the date numbers */
+.date  {     
+    font-size: x-large;
+    padding: 0.25em 0.25em;   
+    text-align: left;
+    vertical-align: top;
+    
+    }
+/* Class for individual days (coming in future release) */
+.sun {
+     color:red;
+     }
+/* Hide the month element (coming in future release) */
+th.month {
+    visibility: hidden;
+    display:none;
+    }
+.protesta {
+    background-color: rgb(252, 0, 0);
+}
