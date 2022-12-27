@@ -42,7 +42,7 @@
         <video muted autoplay>
             <source src="video/logo_animation.mp4" type="video/mp4">
         </video>
-        <div class="cap"></div> 
+        <div class="capa"></div> 
 
     </header>
     <main>
@@ -52,12 +52,27 @@
                         <div class="poligon">
                             <h2 class="helpText">Si estás en lucha, contacta con nosotros, 
                                 somos una herramienta obrera y social.</h2>
-                            <button class="a button_red">
+                            <button class="a button_red" id="Button_Help">
                                 <strong><p class="contact white">Contacta</p></strong>
                             </button>                        
                         </div> 
                     </div>
             </div>         
+        </div>
+        <div id="overlay">           
+            <div id="popupBody">
+                <h2>Contacta con el Movimiento</h2>
+                <a id="cerrar">&times;</a>
+                <div class="popupContent">
+                    <p>Ingresa los datos</p>  
+                    <input type="text" class="box" placeholder="Nombre de la persona que contacta">
+                    <input type="text" class="box" placeholder="Email de contacto">
+                    <input type="text" class="box" placeholder="WhatsApp/Telegram">
+                    <input type="text" class="box" placeholder="Empresa/Asociación">
+                    <textarea class="box" name="comentarios" rows="10" cols="40" placeholder="Cuéntanos brevemente vuestra lucha"></textarea>
+                    <a href="" id="enviar"><p class="enviar_pop">Enviar</p></a>
+                 </div>
+            </div>
         </div>                
     </main>
     <nav>
@@ -121,4 +136,5 @@
     </footer>
     
 </body>
+<script src="/JavaScript.js"></script>
 </html>

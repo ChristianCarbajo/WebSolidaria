@@ -80,7 +80,7 @@
 }
 .container {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     
 }   
 #hero {
@@ -305,12 +305,21 @@ td  {
     padding: 0.25em 0.25em;   
     text-align: left;
     vertical-align: top;
+    color: rgb(133, 3, 133);
     
     }
 /* Class for individual days (coming in future release) */
 .sun {
      color:red;
-     }
+ }
+.fight {
+    background-color: black;   
+}
+.fight_text {
+    margin-left: 0.4vw;
+    padding-top: 1vh;
+    font-size: 2.2vh;
+}
 /* Hide the month element (coming in future release) */
 th.month {
     visibility: hidden;
@@ -318,4 +327,57 @@ th.month {
     }
 .protesta {
     background-color: rgb(252, 0, 0);
+}
+/*popUp*/
+#overlay {
+    position: fixed;
+    top: -10vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    display: none;
+    z-index: 2;
+}
+
+#popupBody {
+    width: 40%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #CCC;
+    background: #FFF;
+    position: relative;
+    margin: 20% auto;
+    transition: all 0s ease-in-out;
+
+}
+
+#cerrar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F00;
+    transition: all 200ms;
+    cursor: pointer;
+}
+.box {
+    margin-top: 1vh;
+    height: 4vh;
+    width: 30vw;
+    transition: all 0s ease-in-out;
+}
+#enviar {
+    width: 4vw;
+    font-style:oblique;
+}
+.enviar_pop{
+    font-size: 4vh;
+    padding-top: 2vh;
+    padding-right: 4vh;
+    display: flex;
+    justify-content: flex-end;
 }
