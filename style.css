@@ -374,10 +374,37 @@ th.month {
     width: 4vw;
     font-style:oblique;
 }
+
 .enviar_pop{
     font-size: 4vh;
     padding-top: 2vh;
     padding-right: 4vh;
     display: flex;
     justify-content: flex-end;
+}
+.texto_descriptivo_conocenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.title_conocenos {
+    padding: 10vh;
+    display: flex;
+    justify-content: center;
+    font-size: 10vh;
+}
+.body_conocenos {
+    background-image: url(/Conocenos/img_conocenos/Background.png);
+}
+.parrafo_conocenos {
+    width:45vw;
+    font-size: 3vh; 
+    text-align: justify; 
+    padding-top: 3vh; 
+}
+.FB_tw_tl_yt_inst_conocenos {
+    padding: 10vh;
+    height: 10vh;
 }
