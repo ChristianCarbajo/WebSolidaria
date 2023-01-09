@@ -309,6 +309,9 @@ td  {
     
     }
 /* Class for individual days (coming in future release) */
+.calendar-whiteText {
+    color: #ffffff;
+}
 .sun {
      color:red;
  }
@@ -405,6 +408,6 @@ th.month {
     padding-top: 3vh; 
 }
 .FB_tw_tl_yt_inst_conocenos {
-    padding: 10vh;
+    margin: 10vh;
     height: 10vh;
 }
