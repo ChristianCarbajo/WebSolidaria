@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.actualidad-body {
+    background-color: rgb(219, 219, 219);
+}
+.actualidad-titulo {
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+    font-size: 6vh;
+}
+.actualidad-carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 2.5vw;
+    height: 5vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: rgb(241, 241, 241);
+
+}
+
+
+
+.revista {
+    height: 150vh;
+    margin-bottom: 5vh;
+    display:block;
+}
+#Revista3 {
+    width: 64.5vw;
+}

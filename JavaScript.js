@@ -10,3 +10,6 @@ Button_Help.onclick = function abrirPopUp(){
 close.onclick = function cerrarPopUp() {
     overlay.style.display = "none";
   }
+
+
+ 
