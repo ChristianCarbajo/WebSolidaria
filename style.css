@@ -415,3 +415,57 @@ th.month {
     height: 10vh;
 }
 
+@media (max-width:1110px) {
+    h1{
+        width: 70vw;
+    }
+    .helpText {
+        display: none;
+
+    }
+    .button_red {
+        display:none
+        
+    }
+    .backgroundBlack{
+        height: 70%;
+    }
+    .index-main{
+        height: 20vh;
+        
+    }
+    .colums {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .text {
+        width: 70vw;
+        margin-bottom: 5vh;
+    }
+    .videoYT {
+        height: 15vh;
+    }
+    .videoYT-video {
+        height: 30vh;
+    }
+    .description {
+        height: 20vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .textDescription {
+        width: 50vw;
+        
+    }
+    .textDescription p{
+        font-size: 1.5vh;
+        margin-top: 2vh;
+
+    }
+    .social-footer{
+        position: relative;
+        bottom: 4vh;
+    }
+}
