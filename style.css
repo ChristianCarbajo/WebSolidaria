@@ -468,4 +468,31 @@ th.month {
         position: relative;
         bottom: 4vh;
     }
+    .body_conocenos{
+        display: flex;
+        align-items: center;
+    }
+    .conocenos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_conocenos {
+        
+        font-size: 5vh;
+    }
+    .parrafo_conocenos{
+        width: 65vw;
+    }
+    .email-p{
+        font-size: 2.5vh;
+        margin-right: 1vh;
+    }
+    .FB_tw_tl_yt_inst_conocenos{
+        margin: 2vh;
+        height: 3vh;
+    }
+    .social-conocenos-responsive{
+
+    }
 }
