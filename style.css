@@ -4,13 +4,16 @@
    
 
 }
+body{
+    Overflow-x: hidden
+}
 .body_index {
     max-width: 100%;
     position: absolute;
     top: -1vh;
     right: 0vw;
     left:0vw;
-    overflow-x: hidden;
+    
 }
 .pad {
     padding: 1vh;
