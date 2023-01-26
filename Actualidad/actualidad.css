@@ -39,3 +39,8 @@ button{
 #Revista3 {
     width: auto;
 }
+@media (max-width:1110px){
+    .revista {
+        height: 53vh;
+    }
+}

@@ -176,13 +176,21 @@ button {
 
 }
 .image {
-    height: 30vh;
-    padding-bottom: 3vh;
+    height: 100%;
     transition: all 1s;
-    border-radius: 35%;
 }
 .image:hover {
     height: 38vh;
+}
+.imageAnchor{
+    border-radius: 35%;
+    margin-bottom: 3vh;
+    height:  30vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
     
@@ -314,6 +322,9 @@ td  {
 /* Class for individual days (coming in future release) */
 .calendar-whiteText {
     color: #ffffff;
+    margin-left: 0.4vw;
+    margin-top: 1vh;
+    
 }
 .sun {
      color:red;
@@ -321,11 +332,7 @@ td  {
 .fight {
     background-color: black;   
 }
-.fight_text {
-    margin-left: 0.4vw;
-    padding-top: 1vh;
-    font-size: 2.2vh;
-}
+
 /* Hide the month element (coming in future release) */
 th.month {
     visibility: hidden;
@@ -494,5 +501,8 @@ th.month {
     }
     .social-conocenos-responsive{
 
+    }
+    .expecial-size {
+        font-size: 1vh;
     }
 }
