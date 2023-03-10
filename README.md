@@ -1,2 +1,2 @@
-# Movimiento-Obrero-Asturiano
+# WebSolidaria
 Web del movimiento solidario MOA
